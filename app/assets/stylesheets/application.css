@@ -18,8 +18,9 @@
    padding: 0;
    box-sizing: border-box;
    color: #303030;
+   font-family: 'Open Sans', sans-serif;
  }
- 
+
  body {
    margin: 30px;
  }
@@ -37,26 +38,28 @@
  
  table {
    border-collapse: separate;
-   border-spacing: 10px 15px;
+   border-spacing: 5px 10px;
  }
  
  .th {
-   font-size: 10px;
+   font-size: 8px;
  }
  
  h2 {
    margin-bottom: 10px;
  }
  
- .show-book-title,
- .show-book-body {
-   margin: 25px;
-   font-size: 15px;
+ .strong {
+   font-weight: bold;
  }
  
  .edit-link,
  .back-link {
    font-size: 15px;
+   padding: 10px 0 0 10px;
  }
-  
- .
+ 
+ .show-book-title,
+ .show-book-body {
+    padding: 20px 30px;
+ }

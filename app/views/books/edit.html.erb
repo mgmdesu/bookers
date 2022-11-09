@@ -10,10 +10,10 @@
 
 <%= form_with model: @book do |f| %>
 
-  <div class="edit-title">Title</div>
+  <div class="book-title">Title</div>
   <%= f.text_field :title %>
 
-  <div class="edit-body">Body</div>
+  <div class="book-body">Body</div>
   <%= f.text_area :body %>
 
   <br><%= f.submit "Update Book" %></br>
