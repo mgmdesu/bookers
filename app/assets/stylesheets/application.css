@@ -22,17 +22,17 @@
  
  body {
    margin: 30px;
-   line-height: 50px;
  }
  
  h1 {
    font-size: 25px;
+   line-height: 50px;
  }
  
  p {
    margin: 0 10px 0 0;
    text-indent: 2.0em;
-   font-size: 15px;
+   line-height: 50px;
  }
  
  table {
@@ -40,4 +40,23 @@
    border-spacing: 10px 15px;
  }
  
+ .th {
+   font-size: 10px;
+ }
  
+ h2 {
+   margin-bottom: 10px;
+ }
+ 
+ .show-book-title,
+ .show-book-body {
+   margin: 25px;
+   font-size: 15px;
+ }
+ 
+ .edit-link,
+ .back-link {
+   font-size: 15px;
+ }
+  
+ .
