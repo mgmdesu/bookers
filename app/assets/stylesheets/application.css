@@ -53,12 +53,6 @@
    font-weight: bold;
  }
  
- .edit-link,
- .back-link {
-   font-size: 15px;
-   padding: 10px 0 0 10px;
- }
- 
  .show-book-title,
  .show-book-body {
     padding: 20px 30px;

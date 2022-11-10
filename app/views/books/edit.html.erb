@@ -18,6 +18,6 @@
 
   <br><%= f.submit "Update Book" %></br>
   
-  <a class="show-link"><%= link_to 'Show', @book %></a>
-  <a class="back-link"><%= link_to 'Back', books_path %></a>
+  <%= link_to 'Show', book_path(@book.id) %>
+  <%= link_to 'Back', books_path %>
 <% end %>
